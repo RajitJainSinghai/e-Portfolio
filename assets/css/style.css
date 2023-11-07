@@ -479,6 +479,14 @@ a.linkofwebsite {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resumebtn {
+  width: 100px;
+  background: #e4edf947;
+  border: 1px solid #0000001f;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
