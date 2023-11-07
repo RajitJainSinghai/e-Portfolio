@@ -487,6 +487,10 @@ a.linkofwebsite {
   font-weight: 700;
   border-radius: 5px;
 }
+img.download_icons_for_resume {
+  width: 12px;
+  margin-left: 10px;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
