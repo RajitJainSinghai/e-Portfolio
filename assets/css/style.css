@@ -255,11 +255,12 @@ img.resumerajit {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
-  bottom: 0;
+  bottom: 0 !important;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  height: 100vh;
 }
 
 #hero .hero-container {
