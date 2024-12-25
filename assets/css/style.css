@@ -1180,4 +1180,8 @@ button.netlify_button:hover {
     background: url(../img/developer1_mobile.png) top center;
     background-size: cover;
   }
+  .cetralize {
+    display: flex;
+    justify-content: center;
+  }
 }
