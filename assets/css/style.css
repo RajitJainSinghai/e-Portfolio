@@ -596,6 +596,8 @@ img.download_icons_for_resume {
   z-index: 1;
   border: 1px solid lightgrey;
   border-radius: 10px;
+  display: flex;
+    align-items: center;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1165,6 +1167,10 @@ button.netlify_button:hover {
 
 .bx-link:before {
   content: "" !important;
+}
+.widthheight {
+  width: 300px;
+  height: 230px;
 }
 
 @media screen and (max-width: 600px) {
