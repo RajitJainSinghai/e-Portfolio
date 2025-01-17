@@ -602,7 +602,7 @@ img.download_icons_for_resume {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(179, 179, 179, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -626,12 +626,14 @@ img.download_icons_for_resume {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
+  color: white;
+  font-size: 24px;
   text-align: center;
-  /* background: rgba(20, 157, 221, 0.75); */
   transition: 0.3s;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -757,10 +759,11 @@ img.download_icons_for_resume {
 }
 
 .services .title {
-  margin-left: 80px;
+  margin-left: 0px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 .services .title a {
@@ -772,10 +775,32 @@ img.download_icons_for_resume {
 }
 
 .services .description {
-  margin-left: 80px;
+  margin-left: 0px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0px;
+  height: 150px;
+  overflow-y: scroll;
 }
+.description::-webkit-scrollbar {
+  display: none;
+}
+span.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cardData {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 32%;
+  cursor: pointer;
+}
+.cardData:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1185,3 +1210,8 @@ button.netlify_button:hover {
     justify-content: center;
   }
 }
+
+
+
+
+/* checking  */

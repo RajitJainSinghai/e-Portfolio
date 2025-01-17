@@ -262,3 +262,20 @@
 
 
 /***************************** */
+  // Wait for the DOM to load
+  document.addEventListener("DOMContentLoaded", () => {
+    // Get all nav-link elements
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    // Add a click event listener to each nav-link
+    navLinks.forEach(link => {
+      link.addEventListener("click", function () {
+        // Remove 'active' class from all links
+        navLinks.forEach(nav => nav.classList.remove("active"));
+
+        // Add 'active' class to the clicked link
+        this.classList.add("active");
+      });
+    });
+  });
+
