@@ -279,3 +279,17 @@
     });
   });
 
+
+  const toggleBtn = document.getElementById('toggleExperienceBtn');
+  const hiddenItems = document.querySelectorAll('.hidden-experience');
+  let isExpanded = false;
+
+  toggleBtn.addEventListener('click', () => {
+    hiddenItems.forEach(item => {
+      item.style.display = isExpanded ? 'none' : 'block';
+    });
+    toggleBtn.textContent = isExpanded ? 'Show More Experience' : 'Show Less';
+    isExpanded = !isExpanded;
+  });
+
+

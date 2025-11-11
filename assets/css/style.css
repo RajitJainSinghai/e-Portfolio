@@ -126,7 +126,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid white;
+  border: 1.5px solid white;
 }
 
 #header .profile .social-links a:hover {
@@ -313,6 +313,13 @@ img.resumerajit {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
+.button_show_exp {
+    margin: 0 auto 20px !important;
+    width: 60% !important;
+    display: block;
+    padding: 8px !important;
+}
 section {
   /* padding: 60px 0; */
   overflow: hidden;
